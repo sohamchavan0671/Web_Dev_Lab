@@ -1,1 +1,86 @@
-*{box-sizing:border-box}body{margin:0;background:#f5f3ee;color:#252525;font:16px/1.6 Arial,sans-serif}.wrap{max-width:950px;margin:60px auto;padding:0 20px}header{max-width:700px;margin-bottom:35px}.eyebrow{color:#b65f40;font-size:.78rem;font-weight:bold;letter-spacing:.12em}.wrap h1{font-size:clamp(2.5rem,6vw,4rem);line-height:1.05}.wrap p{color:#626262}.compare{display:grid;grid-template-columns:1fr 1fr;gap:18px}.compare article,.note{padding:24px;background:white;border:1px solid #e3dfd7;border-radius:13px}.flex-demo{display:flex;gap:8px;flex-wrap:wrap}.flex-demo span,.grid-demo span{padding:12px;background:#e8e4da;border-radius:7px}.grid-demo{display:grid;grid-template-columns:2fr 1fr;gap:8px}.grid-demo span:first-child,.grid-demo span:last-child{grid-column:span 2;background:#d8e3db}.note{margin-top:20px}@media(max-width:650px){.compare{grid-template-columns:1fr}}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f3ee;
+    color: #252525;
+    font: 16px/1.6 Arial, sans-serif;
+}
+
+.wrap {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+header {
+    max-width: 700px;
+    margin-bottom: 35px;
+}
+
+.eyebrow {
+    color: #b65f40;
+    font-size: 0.78rem;
+    font-weight: bold;
+    letter-spacing: 0.12em;
+}
+
+.wrap h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1.05;
+}
+
+.wrap p {
+    color: #626262;
+}
+
+.compare {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+}
+
+.compare article,
+.note {
+    padding: 24px;
+    background: white;
+    border: 1px solid #e3dfd7;
+    border-radius: 13px;
+}
+
+.flex-demo {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.flex-demo span,
+.grid-demo span {
+    padding: 12px;
+    background: #e8e4da;
+    border-radius: 7px;
+}
+
+.grid-demo {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 8px;
+}
+
+.grid-demo span:first-child,
+.grid-demo span:last-child {
+    grid-column: span 2;
+    background: #d8e3db;
+}
+
+.note {
+    margin-top: 20px;
+}
+
+@media (max-width: 650px) {
+    .compare {
+        grid-template-columns: 1fr;
+    }
+}
